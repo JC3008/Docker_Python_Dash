@@ -12,7 +12,7 @@ The whole project is wrapped in Docker container, in order to keep it from confi
 ### AWS credentials
 It is required to have aws access_key_id and aws_secret_access_key to read and write files on S3 buckets. Once you have it, just insert your keys in Python\src\.env file.
 ### Objects.py
-This file has all the classes that are used for managing folder structures, fetching credentials, getting data from API, writting files on S3 and Logging. 
+This file has all the classes that are used for folder structures management, fetching credentials, getting data from API, writting files on S3 and Logging. 
 The first task you ll have to do is to change path_name().define() in order to replace the folder names, projects, sufixes and prefixes.
 After doing this, just check the last line of analysis.py for adjust the port which will be used by Dash app.
 

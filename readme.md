@@ -1,7 +1,7 @@
 # Project Outline
 This repository keeps a Python script set which aims to get open data from government sites. The main goal is to explore the brazilian economic landscape and the evolution of the companies that are listed on B3 (Brasil, Bolsa, Balcão).
 
-# Nice to have knwoledge.
+# Technologies.
 The whole project is wrapped in Docker container, in order to keep it from configuration issues. Then it is nice to have basic knowledge in Docker and its funcionalities. Besides it, some features are listed bellow:
 * Object Oriented Python
 * AWS S3
